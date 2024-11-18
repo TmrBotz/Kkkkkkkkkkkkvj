@@ -55,8 +55,6 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=CHNL_LNK)
             ]]
-                InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
-            ]]
         else:
             buttons = [[
                 InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
