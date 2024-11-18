@@ -51,9 +51,9 @@ async def start(client, message):
                 InlineKeyboardButton('♻️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ♻️', url=GRP_LNK),
                 InlineKeyboardButton('🛡️ Tᴍʀ ʙᴏᴛᴢ 🛡️', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='subscription')
+                InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='plan')
             ],[
-                InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=CHNL_LNK)
+                InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=f'http://t.me/share/url?url=%2A%2AHey+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2ACheckout+%2A%2A%40TMR_movie_request_group%2A%2A+For+Searching+Latest+Movies+And+Series+In+Multiple+Languages%2C+It%27s+Just+A+Awesome+Group+For+Searching+Movie+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2AJoin+Backup%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2A%E0%A4%85%E0%A4%A8%E0%A5%87%E0%A4%95+%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%B5%E0%A5%80%E0%A4%A8%E0%A4%A4%E0%A4%AE+%E0%A4%AB%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A5%80%E0%A4%B0%E0%A5%80%E0%A4%9C%E0%A4%BC+%E0%A4%96%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A5%87+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%2A%2A%40TMR_movie_request_group%2A%2A+%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A5%87%E0%A4%82%2C+%E0%A4%AF%E0%A4%B9+%E0%A4%8F%E0%A4%95+%E0%A4%AC%E0%A5%87%E0%A4%B9%E0%A4%A4%E0%A4%B0%E0%A5%80%E0%A4%A8+%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%81%E0%A4%AA+%E0%A4%B9%E0%A5%88+%E0%A4%AE%E0%A5%82%E0%A4%B5%E0%A5%80+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B9%E0%A5%88+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%AC%E0%A5%88%E0%A4%95%E0%A4%85%E0%A4%AA+%E0%A4%9C%E0%A5%89%E0%A4%87%E0%A4%A8+%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A')
             ]]
         else:
             buttons = [[
@@ -62,14 +62,14 @@ async def start(client, message):
                 InlineKeyboardButton('♻️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ♻️', url=GRP_LNK),
                 InlineKeyboardButton('🛡️ Tᴍʀ ʙᴏᴛᴢ 🛡️', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='subscription')
+                InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='plan')
             ],[
-                InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=CHNL_LNK)
+                InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=f'http://t.me/share/url?url=%2A%2AHey+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2ACheckout+%2A%2A%40TMR_movie_request_group%2A%2A+For+Searching+Latest+Movies+And+Series+In+Multiple+Languages%2C+It%27s+Just+A+Awesome+Group+For+Searching+Movie+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2AJoin+Backup%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2A%E0%A4%85%E0%A4%A8%E0%A5%87%E0%A4%95+%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%B5%E0%A5%80%E0%A4%A8%E0%A4%A4%E0%A4%AE+%E0%A4%AB%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A5%80%E0%A4%B0%E0%A5%80%E0%A4%9C%E0%A4%BC+%E0%A4%96%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A5%87+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%2A%2A%40TMR_movie_request_group%2A%2A+%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A5%87%E0%A4%82%2C+%E0%A4%AF%E0%A4%B9+%E0%A4%8F%E0%A4%95+%E0%A4%AC%E0%A5%87%E0%A4%B9%E0%A4%A4%E0%A4%B0%E0%A5%80%E0%A4%A8+%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%81%E0%A4%AA+%E0%A4%B9%E0%A5%88+%E0%A4%AE%E0%A5%82%E0%A4%B5%E0%A5%80+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B9%E0%A5%88+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%AC%E0%A5%88%E0%A4%95%E0%A4%85%E0%A4%AA+%E0%A4%9C%E0%A5%89%E0%A4%87%E0%A4%A8+%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A')
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+        m=await message.reply_sticker("CAACAgIAAxkBAAKjYmZkRgOAtKRZ1d8LHnLAKUtus9noAAIjAAMoD2oUJ1El54wgpAY1BA") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -133,9 +133,9 @@ async def start(client, message):
                 InlineKeyboardButton('♻️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ♻️', url=GRP_LNK),
                 InlineKeyboardButton('🛡️ Tᴍʀ ʙᴏᴛᴢ 🛡️', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='subscription')
+                InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='plan')
             ],[
-                InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=CHNL_LNK)
+                InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=f'http://t.me/share/url?url=%2A%2AHey+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2ACheckout+%2A%2A%40TMR_movie_request_group%2A%2A+For+Searching+Latest+Movies+And+Series+In+Multiple+Languages%2C+It%27s+Just+A+Awesome+Group+For+Searching+Movie+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2AJoin+Backup%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2A%E0%A4%85%E0%A4%A8%E0%A5%87%E0%A4%95+%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%B5%E0%A5%80%E0%A4%A8%E0%A4%A4%E0%A4%AE+%E0%A4%AB%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A5%80%E0%A4%B0%E0%A5%80%E0%A4%9C%E0%A4%BC+%E0%A4%96%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A5%87+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%2A%2A%40TMR_movie_request_group%2A%2A+%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A5%87%E0%A4%82%2C+%E0%A4%AF%E0%A4%B9+%E0%A4%8F%E0%A4%95+%E0%A4%AC%E0%A5%87%E0%A4%B9%E0%A4%A4%E0%A4%B0%E0%A5%80%E0%A4%A8+%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%81%E0%A4%AA+%E0%A4%B9%E0%A5%88+%E0%A4%AE%E0%A5%82%E0%A4%B5%E0%A5%80+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B9%E0%A5%88+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%AC%E0%A5%88%E0%A4%95%E0%A4%85%E0%A4%AA+%E0%A4%9C%E0%A5%89%E0%A4%87%E0%A4%A8+%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A')
             ]]
         else:
             buttons = [[
@@ -146,7 +146,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='subscription')
             ],[
-                InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=CHNL_LNK)
+                InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=f'http://t.me/share/url?url=%2A%2AHey+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2ACheckout+%2A%2A%40TMR_movie_request_group%2A%2A+For+Searching+Latest+Movies+And+Series+In+Multiple+Languages%2C+It%27s+Just+A+Awesome+Group+For+Searching+Movie+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2AJoin+Backup%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2A%E0%A4%85%E0%A4%A8%E0%A5%87%E0%A4%95+%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%B5%E0%A5%80%E0%A4%A8%E0%A4%A4%E0%A4%AE+%E0%A4%AB%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A5%80%E0%A4%B0%E0%A5%80%E0%A4%9C%E0%A4%BC+%E0%A4%96%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A5%87+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%2A%2A%40TMR_movie_request_group%2A%2A+%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A5%87%E0%A4%82%2C+%E0%A4%AF%E0%A4%B9+%E0%A4%8F%E0%A4%95+%E0%A4%AC%E0%A5%87%E0%A4%B9%E0%A4%A4%E0%A4%B0%E0%A5%80%E0%A4%A8+%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%81%E0%A4%AA+%E0%A4%B9%E0%A5%88+%E0%A4%AE%E0%A5%82%E0%A4%B5%E0%A5%80+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B9%E0%A5%88+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%AC%E0%A5%88%E0%A4%95%E0%A4%85%E0%A4%AA+%E0%A4%9C%E0%A5%89%E0%A4%87%E0%A4%A8+%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A')
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
@@ -186,7 +186,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='subscription')
                 ],[
-                    InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=CHNL_LNK)
+                    InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=f'http://t.me/share/url?url=%2A%2AHey+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2ACheckout+%2A%2A%40TMR_movie_request_group%2A%2A+For+Searching+Latest+Movies+And+Series+In+Multiple+Languages%2C+It%27s+Just+A+Awesome+Group+For+Searching+Movie+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2AJoin+Backup%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2A%E0%A4%85%E0%A4%A8%E0%A5%87%E0%A4%95+%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%B5%E0%A5%80%E0%A4%A8%E0%A4%A4%E0%A4%AE+%E0%A4%AB%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A5%80%E0%A4%B0%E0%A5%80%E0%A4%9C%E0%A4%BC+%E0%A4%96%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A5%87+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%2A%2A%40TMR_movie_request_group%2A%2A+%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A5%87%E0%A4%82%2C+%E0%A4%AF%E0%A4%B9+%E0%A4%8F%E0%A4%95+%E0%A4%AC%E0%A5%87%E0%A4%B9%E0%A4%A4%E0%A4%B0%E0%A5%80%E0%A4%A8+%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%81%E0%A4%AA+%E0%A4%B9%E0%A5%88+%E0%A4%AE%E0%A5%82%E0%A4%B5%E0%A5%80+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B9%E0%A5%88+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%AC%E0%A5%88%E0%A4%95%E0%A4%85%E0%A4%AA+%E0%A4%9C%E0%A5%89%E0%A4%87%E0%A4%A8+%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A')
                 ]]
             else:
                 buttons = [[
@@ -197,12 +197,12 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='subscription')
                 ],[
-                    InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=CHNL_LNK)
+                    InlineKeyboardButton('💞 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍᴇ ᴛʜᴀɴ ꜱʜᴀʀᴇ ᴍᴇ 💞', url=f'http://t.me/share/url?url=%2A%2AHey+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2ACheckout+%2A%2A%40TMR_movie_request_group%2A%2A+For+Searching+Latest+Movies+And+Series+In+Multiple+Languages%2C+It%27s+Just+A+Awesome+Group+For+Searching+Movie+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2AJoin+Backup%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87+%F0%9F%91%8B%2C%2A%2A%0D%0A%2A%2A%E0%A4%85%E0%A4%A8%E0%A5%87%E0%A4%95+%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%B5%E0%A5%80%E0%A4%A8%E0%A4%A4%E0%A4%AE+%E0%A4%AB%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A5%80%E0%A4%B0%E0%A5%80%E0%A4%9C%E0%A4%BC+%E0%A4%96%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A5%87+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%2A%2A%40TMR_movie_request_group%2A%2A+%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A5%87%E0%A4%82%2C+%E0%A4%AF%E0%A4%B9+%E0%A4%8F%E0%A4%95+%E0%A4%AC%E0%A5%87%E0%A4%B9%E0%A4%A4%E0%A4%B0%E0%A5%80%E0%A4%A8+%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%81%E0%A4%AA+%E0%A4%B9%E0%A5%88+%E0%A4%AE%E0%A5%82%E0%A4%B5%E0%A5%80+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B9%E0%A5%88+%F0%9F%98%8D%2A%2A%0D%0A%0D%0A%2A%2A%E0%A4%AC%E0%A5%88%E0%A4%95%E0%A4%85%E0%A4%AA+%E0%A4%9C%E0%A5%89%E0%A4%87%E0%A4%A8+%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82%2A%2A+-+%2A%2A%40Tmr_Botz%2A%2A')
                 ]]
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
             reply_markup = InlineKeyboardMarkup(buttons)
-            m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+            m=await message.reply_sticker("CAACAgIAAxkBAAKjYmZkRgOAtKRZ1d8LHnLAKUtus9noAAIjAAMoD2oUJ1El54wgpAY1BA") 
             await asyncio.sleep(1)
             await m.delete()
             await message.reply_photo(
@@ -545,7 +545,7 @@ async def start(client, message):
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@VJ_Botz  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '@Tmr_Botz  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -569,7 +569,7 @@ async def start(client, message):
             pass
         return await message.reply('No such file exist.')
     files = files_
-    title = '@VJ_Botz  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files["file_name"].split()))
+    title = '@Tmr_Botz  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files["file_name"].split()))
     size=get_size(files["file_size"])
     f_caption=files["caption"]
     if CUSTOM_FILE_CAPTION:
@@ -579,7 +579,7 @@ async def start(client, message):
             logger.exception(e)
             f_caption=f_caption
     if f_caption is None:
-        f_caption = f"@VJ_Botz  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files['file_name'].split()))}"
+        f_caption = f"@Tmr_Botz  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files['file_name'].split()))}"
     if not await db.has_premium_access(message.from_user.id):
         if not await check_verification(client, message.from_user.id) and VERIFY == True:
             btn = [[
