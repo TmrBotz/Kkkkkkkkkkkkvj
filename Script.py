@@ -4,7 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b>Jᴀɪ sʜʀᴇᴇ Rᴀᴍ 🚩 {},/n/nHere You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper <a href='https://www.google.com/'>Google</a> Spelling..!!\n\n🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ -<a href='https://t.me/TMR_DEVELOPER'>Tᴍʀ ʙᴏᴛᴢ</a> </b>"""
+    START_TXT = """<b>Jᴀɪ sʜʀᴇᴇ Rᴀᴍ 🚩 {},\n\nHere You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper <a href='https://www.google.com/'>Google</a> Spelling..!!\n\n🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ -<a href='https://t.me/TMR_DEVELOPER'>Tᴍʀ ʙᴏᴛᴢ</a> </b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
